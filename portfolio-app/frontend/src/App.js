@@ -1,10 +1,12 @@
 import React from 'react';
 import PortfolioList from './components/PortfolioList';  // Import your component
+import Navbar from './components/Navbar';
+
 
 function App() {
     return (
         <div className="App">
-            <PortfolioList />  {/* Use your component */}
+            <Navbar />
         </div>
     );
 }
