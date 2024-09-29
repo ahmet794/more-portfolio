@@ -4,13 +4,6 @@ import './PortfolioDashboard.css';
 function PortfolioDashboard() {
   return (
     <div className="dashboard-container">
-      <header className="navbar">
-        <div className="logo">More-Portfolio</div>
-        <div className="nav-links">
-          <a href="/about">About</a>
-          <a href="/contact">Contact Us</a>
-        </div>
-      </header>
 
       <div className="dashboard-box">
         <h1>Portfolio Overview</h1>
